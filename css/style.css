@@ -1,0 +1,463 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Geometria Regular';
+    src: url('../fonts/Geometria.eot');
+    src: url('../fonts/Geometria.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Geometria.woff') format('woff'),
+        url('../fonts/Geometria.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Geometria Medium';
+    src: url('../fonts/Geometria-Medium.eot');
+    src: url('../fonts/Geometria-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Geometria-Medium.woff') format('woff'),
+        url('../fonts/Geometria-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    font-size: 1px;
+}
+
+body {
+    font-family: 'Geometria Regular';
+}
+
+header {
+    position: relative;
+    margin-bottom: 410rem;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    width: 714rem;
+    align-items: center;
+    position: relative;
+    left: 100px;
+}
+
+.contacts a {
+    font-size: 13rem;
+    letter-spacing: 1rem;
+    text-transform: uppercase;
+    color: #fefefe;
+    line-height: 1.5em;
+    text-decoration: none;
+    border-bottom: 1rem solid transparent;
+    font-family: 'Geometria Medium';
+    transition: 0.3s;
+}
+
+.flex {
+    display: flex;
+}
+
+.contacts>a:hover {
+    color: #1a1a1a;
+    border-bottom: 1rem solid #fff;
+}
+
+
+.header-line {
+    padding-top: 43rem;
+}
+
+h1,
+h2 {
+    font-size: 70rem;
+    line-height: 74rem;
+    color: #1a1a1a;
+}
+
+header b {
+    font-size: 35rem;
+    letter-spacing: 4rem;
+    line-height: 91rem;
+    color: #ffffff;
+    filter: drop-shadow(0 0rem 2rem #0099ff);
+}
+
+.wrapper {
+    max-width: 1410rem;
+    margin: 0 auto;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-background {
+    position: absolute;
+    background: url(../img/background.webp) no-repeat;
+    right: 0;
+    width: 1280rem;
+    height: 830rem;
+    z-index: -1;
+}
+
+.sociality {
+    display: flex;
+    justify-content: space-between;
+    width: 165rem;
+}
+
+.sociality a {
+    display: block;
+    background-image: url(../img/sprite.png);
+}
+
+.sociality a:first-child {
+    width: 11rem;
+    height: 19px;
+}
+
+.sociality a:first-child:hover {
+    background-position: 0 20rem;
+}
+
+.sociality a:nth-child(2n) {
+    background-position: 69rem 0;
+    width: 24rem;
+    height: 19rem;
+}
+
+.sociality a:nth-child(2n):hover {
+    background-position: 69rem 84rem;
+}
+
+.sociality a:nth-child(3n) {
+    background-position: 43rem -1rem;
+    width: 19rem;
+    height: 19rem;
+}
+
+.sociality a:nth-child(3n):hover{
+    background-position: 43rem 19rem;
+}
+
+a#last{
+    background-position:21rem 0;
+    width: 21rem;
+    height: 20rem;
+}
+
+a#last:hover{
+    background-position:21rem 20rem;
+}
+
+.home-head {
+    z-index: 2;
+}
+
+.border {
+    position: relative;
+    top: 12rem;
+    height: 130rem;
+    border-left: 3rem solid #0099ff;
+    padding-right: 25rem;
+}
+
+.text .border {
+    position: relative;
+    top: 12rem;
+    height: 215rem;
+    border-left: 3rem solid #0099ff;
+    padding-right: 25rem;
+}
+
+.title {
+    display: flex;
+}
+
+.home-head>.wrapper {
+    padding-top: 290rem;
+}
+
+.paragraph {
+    width: 650rem;
+    margin-bottom: 46rem;
+}
+
+.paragraph p {
+    font-size: 18rem;
+    line-height: 26rem;
+    color: #2b2b2b;
+}
+
+.buttons {
+    display: flex;
+    column-gap: 28rem;
+}
+
+.buttons>a:last-child {
+    display: block;
+    border-radius: 26rem;
+    background-color: transparent;
+    padding: 15.5rem 66.7rem;
+    font-size: 14rem;
+    letter-spacing: 1rem;
+    text-transform: uppercase;
+    color: #2b2b2b;
+    text-decoration: none;
+    font-family: 'Geometria Medium';
+    border: 2rem solid #0099ff;
+    transition: 0.5s;
+}
+
+.buttons>a:first-child {
+    display: block;
+    border-radius: 26rem;
+    background-color: #0099ff;
+    padding: 15.5rem 66.7rem;
+    font-size: 14rem;
+    letter-spacing: 1rem;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Geometria Medium';
+    border: 2rem solid transparent;
+    transition: 0.5s;
+}
+
+
+.buttons a:hover:last-child {
+    color: #ffffff;
+    background-color: #0099ff;
+    border: 2rem solid transparent;
+}
+
+.buttons a:hover:first-child {
+    color: #2b2b2b;
+    background-color: transparent;
+    border: 2rem solid #0099ff;
+}
+
+
+.macbook {
+    position: absolute;
+    background: url(../img/Macbook.png) no-repeat;
+    right: -80rem;
+    top: 100rem;
+    width: 767rem;
+    height: 560rem;
+    transition: 1s;
+}
+
+.relative {
+    position: relative;
+}
+
+.text h2 {
+    margin-bottom: 45rem;
+}
+
+.customers {
+    position: relative;
+    margin-bottom: 380rem;
+
+}
+
+.customers>.flex {
+    column-gap: 85rem;
+    align-items: flex-end;
+}
+
+.customers .buttons {
+    padding-bottom: 55rem;
+}
+
+.background-customers {
+    position: absolute;
+    background: url(../img/background-customers.png) no-repeat;
+    left: 0;
+    top: -100rem;
+    width: 683rem;
+    height: 800rem;
+    z-index: -1;
+}
+
+.soft-platforms {
+    width: 620rem;
+}
+
+.soft-platforms h3 {
+    font-size: 20rem;
+    letter-spacing: 2rem;
+    line-height: 85rem;
+    text-transform: uppercase;
+    font-family: 'Geometria Medium';
+    color: #0099ff;
+}
+
+.soft-platforms p {
+    font-size: 18rem;
+    color: #2b2b2b;
+    line-height: 26rem;
+}
+
+.platforms {
+    position: relative;
+    margin-bottom: 316rem;
+}
+
+.means {
+    text-align: center;
+    margin-bottom: 195rem;
+}
+
+.means h2 {
+    margin-bottom: 83rem;
+}
+
+.means h3 {
+    font-size: 20rem;
+    letter-spacing: 2rem;
+    line-height: 26rem;
+    text-transform: uppercase;
+    color: #1a1a1a;
+    font-family: 'Geometria Medium';
+    padding-top: 25rem;
+    margin-bottom: 25rem;
+}
+
+.means p {
+    font-size: 18rem;
+    line-height: 26rem;
+    color: #2b2b2b;
+}
+
+.means .flex-between {
+    width: 1075rem;
+    margin: 0 auto;
+    margin-bottom: 90rem;
+}
+
+.means .buttons {
+    width: 243rem;
+    margin: auto;
+}
+
+
+.tick h3 {
+    font-size: 20rem;
+    letter-spacing: 2rem;
+    line-height: 32rem;
+    text-transform: uppercase;
+    color: #0099ff;
+    font-family: 'Geometria Medium';
+}
+
+.tick p {
+    font-size: 12rem;
+    letter-spacing: 2rem;
+    line-height: 32rem;
+    text-transform: uppercase;
+    color: #8f8f8f;
+    font-family: 'Geometria Medium';
+}
+
+.trusted-brands h2 {
+    margin-bottom: 42rem;
+}
+
+.trusted-brands .flex {
+    column-gap: 80rem;
+}
+
+.text-brands {
+    padding-top: 90rem;
+    margin-bottom: 195rem;
+}
+
+.brands {
+    margin-bottom: 385rem;
+}
+
+.line {
+    align-items: center;
+}
+
+.line:first-child {
+    margin-bottom: 33rem;
+}
+
+.guinness {
+    position: relative;
+    right: 45rem;
+}
+
+.hm {
+    position: relative;
+    right: 50rem;
+}
+
+.title-services {
+    margin-bottom: 10rem;
+}
+
+.services {
+    position: relative;
+    padding-bottom: 80px;
+}
+
+.background-services {
+    position: absolute;
+    background: url(../img/background-services.png) no-repeat;
+    bottom: 0;
+    right: 0;
+    width: 950rem;
+    height: 910px;
+    z-index: -1;
+}
+
+.services img {
+    position: relative;
+    bottom: 50rem;
+}
+
+footer {
+    background-color: #001726;
+}
+
+.logotype p {
+    font-size: 14rem;
+    color: #ffffff;
+}
+
+.logotype img {
+    margin-bottom: 33rem;
+}
+
+.links h3 {
+    font-size: 14rem;
+    letter-spacing: 1rem;
+    line-height: 26rem;
+    text-transform: uppercase;
+    color: #0099ff;
+    font-family: 'Geometria Medium';
+}
+
+.links a {
+    font-size: 14px;
+    line-height: 22px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+a.no-line-heigh {
+    line-height: 1em;
+}
