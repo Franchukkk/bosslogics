@@ -242,15 +242,10 @@ a#last:hover{
     border: 2rem solid #0099ff;
 }
 
-
-.macbook {
+.macbook{
     position: absolute;
-    background: url(../img/Macbook.png) no-repeat;
-    right: -80rem;
-    top: 100rem;
-    width: 767rem;
-    height: 560rem;
-    transition: 1s;
+    right: -100px;
+    top: 100px;
 }
 
 .relative {
