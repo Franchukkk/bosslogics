@@ -36,6 +36,10 @@ header {
     margin-bottom: 410rem;
 }
 
+.overflow-x-hiden {
+    overflow-x: hidden;
+}
+
 .contacts {
     display: flex;
     justify-content: space-between;
@@ -96,12 +100,62 @@ header b {
     justify-content: space-between;
 }
 
-.header-background {
+/* .header-background {
     position: absolute;
     background: url(../img/background.webp) no-repeat;
     right: 0;
     width: 1280rem;
     height: 830rem;
+    z-index: -1;
+} */
+
+.bg1 {
+    position: absolute;
+    background-image: url(../img/Path\ 0.svg);
+    background-position-y: -440rem;
+    right: 0;
+    width: 70%;
+    height: 825rem;
+    z-index: -1;
+}
+
+.bg2 {
+    position: absolute;
+    background-image: url(../img/Path\ 0\ \(1\).svg);
+    background-position-y: -500rem;
+    right: 0;
+    width: 58%;
+    height: 700rem;
+    z-index: -1;
+}
+
+.bg3 {
+    position: absolute;
+    background-image: url(../img/Path\ 0\ \(2\).svg);
+    background-position-y: -650rem;
+    right: 0;
+    width: 45%;
+    height: 540rem;
+    z-index: -1;
+}
+
+.bg4{
+    position: absolute;
+    background: url(../img/Path\ 0\ \(3\).svg) no-repeat;
+    background-position-y: -650rem;
+    right: 0;
+    width: 50%;
+    height: 664rem;
+    z-index: -1;
+}
+
+.bg5{
+    position: absolute;
+    background: url(../img/Path\ 0\ \(4\).svg) no-repeat;
+    background-position-y: -650rem;
+    right: 0;
+    width: 50%;
+    height: 664rem;
     z-index: -1;
 }
 
@@ -141,18 +195,18 @@ header b {
     height: 19rem;
 }
 
-.sociality a:nth-child(3n):hover{
+.sociality a:nth-child(3n):hover {
     background-position: 43rem 19rem;
 }
 
-a#last{
-    background-position:21rem 0;
+a#last {
+    background-position: 21rem 0;
     width: 21rem;
     height: 20rem;
 }
 
-a#last:hover{
-    background-position:21rem 20rem;
+a#last:hover {
+    background-position: 21rem 20rem;
 }
 
 .home-head {
@@ -242,7 +296,7 @@ a#last:hover{
     border: 2rem solid #0099ff;
 }
 
-.macbook{
+.macbook {
     position: absolute;
     right: -100px;
     top: 100px;
@@ -302,6 +356,7 @@ a#last:hover{
 }
 
 .platforms {
+    overflow: hidden;
     position: relative;
     margin-bottom: 316rem;
 }
@@ -456,4 +511,11 @@ footer {
 
 a.no-line-heigh {
     line-height: 1em;
+}
+
+footer input {
+    border-radius: 21px;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    padding: 13rem 108rem 13rem 23rem;
 }
