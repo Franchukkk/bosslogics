@@ -246,6 +246,7 @@ a#last:hover{
     position: absolute;
     right: -100px;
     top: 100px;
+    z-index: -1;
 }
 
 .relative {
