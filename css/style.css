@@ -605,15 +605,37 @@ input {
     background-color: transparent;
 }
 
-.get-touch li::before {
+.geo::before,
+.mail::before,
+.phone::before {
+    content: "";
+    position: absolute;
     background: url(../img/sprite.png);
+    left: -20rem;
 }
 
-.get-touch li::before {
-    content: '';
-    background-position: 0 0;
+.get-touch{
+    position: relative;
+}
+
+.geo::before{
+    background-position: -17rem 41rem;
+    width: 10rem;
+    height: 15rem;
+}
+
+.mail::before{
+    background-position: -1rem 39rem;
+    margin-top: 5rem;
     width: 14rem;
     height: 11rem;
+}
+
+.phone::before{
+    background-position: -29rem 39rem;
+    margin-top: 5rem;
+    width: 14rem;
+    height: 15rem;
 }
 
 hr {
