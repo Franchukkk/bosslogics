@@ -619,23 +619,23 @@ input {
 }
 
 .geo::before{
-    background-position: -17rem 41rem;
-    width: 10rem;
-    height: 15rem;
+    background-position: -17px 41px;
+    width: 10px;
+    height: 15px;
 }
 
 .mail::before{
-    background-position: -1rem 39rem;
+    background-position: -1px 39px;
     margin-top: 5rem;
-    width: 14rem;
-    height: 11rem;
+    width: 14px;
+    height: 11px;
 }
 
 .phone::before{
-    background-position: -29rem 39rem;
+    background-position: -29px 39px;
     margin-top: 5rem;
-    width: 14rem;
-    height: 15rem;
+    width: 14px;
+    height: 15px;
 }
 
 hr {
