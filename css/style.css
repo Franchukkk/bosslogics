@@ -23,6 +23,16 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Geometria Extra Bold';
+    src: url('../fonts/Geometria-ExtraBold.eot');
+    src: url('../fonts/Geometria-ExtraBold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Geometria-ExtraBold.woff') format('woff'),
+    url('../fonts/Geometria-ExtraBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
 html {
     font-size: 1px;
 }
@@ -38,6 +48,44 @@ header {
 
 .overflow-x-hiden {
     overflow-x: hidden;
+}
+
+.logo>a {
+    align-items: center;
+    color: #191919;
+    font-size: 28rem;
+    text-decoration: none;
+    font-weight: 1200;
+    font-family: 'Geometria Extra Bold';
+}
+
+.logo i {
+    color: #3ec2f1;
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'Geometria Regular';
+    margin-left: 8rem;
+}
+
+footer .logo>a {
+    align-items: center;
+    color: #fff;
+    font-size: 28rem;
+    text-decoration: none;
+    font-weight: 1200;
+    font-family: 'Geometria Extra Bold';
+}
+
+footer .logo{
+    margin-bottom: 33rem;
+}
+
+footer .logo i {
+    color: #fff;
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'Geometria Regular';
+    margin-left: 8rem;
 }
 
 .contacts {
@@ -114,7 +162,7 @@ header b {
     background-image: url(../img/Path\ 0.svg);
     background-position-y: -440rem;
     right: 0;
-    width: 70%;
+    width: 73%;
     height: 825rem;
     z-index: -1;
 }
@@ -142,10 +190,10 @@ header b {
 .bg4 {
     position: absolute;
     background: url(../img/Path\ 0\ \(3\).svg) no-repeat;
-    right: 20%;
-    top: -100rem;
-    width: 32%;
-    height: 665rem;
+    right: 0;
+    top: -75rem;
+    width: 52%;
+    height: 800rem;
     z-index: -1;
 }
 
@@ -162,8 +210,8 @@ header b {
     position: absolute;
     background: url(../img/Path\ 21.svg) no-repeat;
     top: -120rem;
-    left: -85rem;
-    width: 40%;
+    left: -120rem;
+    width: 60%;
     height: 800rem;
     z-index: -1;
 }
@@ -236,13 +284,13 @@ header b {
 }
 
 .sociality a:nth-child(2n) {
-    background-position: 69px 0;
+    background-position: 69px -1px;
     width: 24px;
     height: 19px;
 }
 
 .sociality a:nth-child(2n):hover {
-    background-position: 69px 84px;
+    background-position: 69px 83px;
 }
 
 .sociality a:nth-child(3n) {
@@ -369,7 +417,7 @@ a#last:hover {
 
 .customers {
     position: relative;
-    margin-bottom: 380rem;
+    margin-bottom: 330rem;
 
 }
 
@@ -414,7 +462,9 @@ a#last:hover {
 .platforms {
     overflow: hidden;
     position: relative;
-    margin-bottom: 316rem;
+    margin-bottom: 216rem;
+    padding-top: 50rem;
+    padding-bottom: 100rem;
 }
 
 .means {
@@ -452,6 +502,10 @@ a#last:hover {
 .means .buttons {
     width: 243rem;
     margin: auto;
+}
+
+.means img{
+    margin: auto; 
 }
 
 
@@ -529,7 +583,7 @@ a#last:hover {
 
 .services img {
     position: relative;
-    bottom: 50rem;
+    bottom: 20rem;
 }
 
 footer {
@@ -614,24 +668,24 @@ input {
     left: -20rem;
 }
 
-.get-touch{
+.get-touch {
     position: relative;
 }
 
-.geo::before{
+.geo::before {
     background-position: -17px 41px;
     width: 10px;
     height: 15px;
 }
 
-.mail::before{
+.mail::before {
     background-position: -1px 39px;
     margin-top: 5rem;
     width: 14px;
     height: 11px;
 }
 
-.phone::before{
+.phone::before {
     background-position: -29px 39px;
     margin-top: 5rem;
     width: 14px;
@@ -650,22 +704,22 @@ hr {
     text-decoration: none;
 }
 
-.get-touch li{
+.get-touch li {
     margin-bottom: 20rem;
 }
 
-.last-wrap a:hover{
+.last-wrap a:hover {
     text-decoration: underline;
 }
 
-.last-wrap{
+.last-wrap {
     padding-top: 25rem;
 }
 
-.text-end{
+.text-end {
     width: 285rem;
 }
 
-.hr{
+.hr {
     padding-top: 50rem;
 }
