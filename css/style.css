@@ -508,6 +508,10 @@ a#last:hover {
     margin: auto; 
 }
 
+.means img{
+    margin-right: 5rem;
+}
+
 
 .tick h3 {
     font-size: 20rem;
