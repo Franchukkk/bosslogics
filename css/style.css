@@ -46,7 +46,7 @@ header {
     width: 714rem;
     align-items: center;
     position: relative;
-    left: 100px;
+    left: 100rem;
 }
 
 .contacts a {
@@ -143,7 +143,7 @@ header b {
     position: absolute;
     background: url(../img/Path\ 0\ \(3\).svg) no-repeat;
     right: 20%;
-    top: -100px;
+    top: -100rem;
     width: 32%;
     height: 665rem;
     z-index: -1;
@@ -227,42 +227,42 @@ header b {
 }
 
 .sociality a:first-child {
-    width: 11rem;
+    width: 11px;
     height: 19px;
 }
 
 .sociality a:first-child:hover {
-    background-position: 0 20rem;
+    background-position: 0 20px;
 }
 
 .sociality a:nth-child(2n) {
-    background-position: 69rem 0;
-    width: 24rem;
-    height: 19rem;
+    background-position: 69px 0;
+    width: 24px;
+    height: 19px;
 }
 
 .sociality a:nth-child(2n):hover {
-    background-position: 69rem 84rem;
+    background-position: 69px 84px;
 }
 
 .sociality a:nth-child(3n) {
-    background-position: 43rem -1rem;
-    width: 19rem;
-    height: 19rem;
+    background-position: 43px -1px;
+    width: 19px;
+    height: 19px;
 }
 
 .sociality a:nth-child(3n):hover {
-    background-position: 43rem 19rem;
+    background-position: 43px 19px;
 }
 
 a#last {
-    background-position: 21rem 0;
-    width: 21rem;
-    height: 20rem;
+    background-position: 21px 0;
+    width: 21px;
+    height: 20px;
 }
 
 a#last:hover {
-    background-position: 21rem 20rem;
+    background-position: 21px 20px;
 }
 
 .home-head {
@@ -354,8 +354,8 @@ a#last:hover {
 
 .macbook {
     position: absolute;
-    right: -100px;
-    top: 100px;
+    right: -100rem;
+    top: 100rem;
     z-index: -1;
 }
 
@@ -514,7 +514,7 @@ a#last:hover {
 
 .services {
     position: relative;
-    padding-bottom: 80px;
+    padding-bottom: 80rem;
 }
 
 .background-services {
@@ -523,7 +523,7 @@ a#last:hover {
     bottom: 0;
     right: 0;
     width: 950rem;
-    height: 910px;
+    height: 910rem;
     z-index: -1;
 }
 
@@ -559,8 +559,8 @@ footer {
 }
 
 .links a {
-    font-size: 14px;
-    line-height: 22px;
+    font-size: 14rem;
+    line-height: 22rem;
     color: #ffffff;
     text-decoration: none;
 }
@@ -587,9 +587,9 @@ footer input {
     text-transform: uppercase;
     font-family: 'Geometria Medium';
     color: #ffffff;
-    border-radius: 21px;
+    border-radius: 21rem;
     background-color: #0099ff;
-    border: 2px solid #0099ff;
+    border: 2rem solid #0099ff;
     padding: 10.5rem 42.03rem;
     margin-left: 15rem;
     transition: 0.5s;
@@ -645,7 +645,7 @@ hr {
 
 .last-wrap a {
     opacity: 0.612;
-    font-size: 14px;
+    font-size: 14rem;
     color: #ffffff;
     text-decoration: none;
 }
