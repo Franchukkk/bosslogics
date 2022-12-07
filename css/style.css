@@ -27,11 +27,11 @@
     font-family: 'Geometria Extra Bold';
     src: url('../fonts/Geometria-ExtraBold.eot');
     src: url('../fonts/Geometria-ExtraBold.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/Geometria-ExtraBold.woff') format('woff'),
-    url('../fonts/Geometria-ExtraBold.ttf') format('truetype');
+        url('../fonts/Geometria-ExtraBold.woff') format('woff'),
+        url('../fonts/Geometria-ExtraBold.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-    }
+}
 
 html {
     font-size: 1px;
@@ -50,33 +50,7 @@ header {
     overflow-x: hidden;
 }
 
-.logo>a {
-    align-items: center;
-    color: #191919;
-    font-size: 28rem;
-    text-decoration: none;
-    font-weight: 1200;
-    font-family: 'Geometria Extra Bold';
-}
-
-.logo i {
-    color: #3ec2f1;
-    font-style: normal;
-    font-weight: normal;
-    font-family: 'Geometria Regular';
-    margin-left: 8rem;
-}
-
-footer .logo>a {
-    align-items: center;
-    color: #fff;
-    font-size: 28rem;
-    text-decoration: none;
-    font-weight: 1200;
-    font-family: 'Geometria Extra Bold';
-}
-
-footer .logo{
+footer .logo {
     margin-bottom: 33rem;
 }
 
@@ -254,6 +228,34 @@ header b {
     bottom: 0;
 }
 
+.bg11 {
+    position: absolute;
+    background: url(../img/Path\ 26.svg) no-repeat;
+    width: 80%;
+    height: 1000rem;
+    left: -220rem;
+    top: -200rem;
+    z-index: -1;
+}
+
+.bg12 {
+    position: absolute;
+    background: url(../img/Path\ 27.svg) no-repeat;
+    width: 80%;
+    height: 1000rem;
+    left: -170rem;
+    top: -90rem;
+    z-index: -1;
+}
+
+.under-logo {
+    position: absolute;
+    width: 166rem;
+    border: none;
+    border-top: 1px solid #00ccff;
+    margin-top: 15rem;
+}
+
 .services {
     position: relative;
 }
@@ -325,6 +327,10 @@ a#last:hover {
     padding-right: 25rem;
 }
 
+.text {
+    padding-top: 38rem;
+}
+
 .text .border {
     position: relative;
     top: 12rem;
@@ -339,6 +345,14 @@ a#last:hover {
 
 .home-head>.wrapper {
     padding-top: 290rem;
+}
+
+.trusted-brands>.wrapper {
+    max-width: 1180rem;
+}
+
+.trusted-brands .paragraph {
+    max-width: 520rem;
 }
 
 .paragraph {
@@ -494,24 +508,22 @@ a#last:hover {
 }
 
 .means .flex-between {
-    width: 1075rem;
+    max-width: 1075rem;
     margin: 0 auto;
     margin-bottom: 90rem;
 }
 
-.means .buttons {
-    width: 243rem;
+.means .buttons a {
     margin: auto;
 }
 
-.means img{
-    margin: auto; 
+.means img {
+    margin: auto;
 }
 
-.means img{
+.means img {
     margin-right: 5rem;
 }
-
 
 .tick h3 {
     font-size: 20rem;
@@ -538,6 +550,9 @@ a#last:hover {
 .trusted-brands .flex {
     column-gap: 80rem;
 }
+
+
+
 
 .text-brands {
     padding-top: 90rem;
@@ -596,14 +611,13 @@ footer {
     background-color: #001726;
 }
 
+.logotype {
+    position: relative;
+}
 
 .logotype p {
     font-size: 14rem;
     color: #ffffff;
-}
-
-.logotype img {
-    margin-bottom: 33rem;
 }
 
 .links h3 {
@@ -632,10 +646,11 @@ a.no-line-heigh {
 }
 
 footer input {
+    width: 254rem;
     border-radius: 21rem;
     background-color: transparent;
     border: 1rem solid #ffffff;
-    padding: 13rem 108rem 13rem 23rem;
+    padding: 13rem 23rem;
     margin-bottom: 40rem;
 }
 
@@ -676,6 +691,11 @@ input {
     position: relative;
 }
 
+.get-touch h3 {
+    position: relative;
+    right: 20rem;
+}
+
 .geo::before {
     background-position: -17px 41px;
     width: 10px;
@@ -698,7 +718,7 @@ input {
 
 hr {
     border: none;
-    border-top: 1rem solid #fff;
+    border-top: 1rem solid #66737d;
 }
 
 .last-wrap a {
