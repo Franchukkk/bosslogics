@@ -54,6 +54,10 @@ footer .logo {
     margin-bottom: 33rem;
 }
 
+.logo img{
+    width: 166rem;
+}
+
 footer .logo i {
     color: #fff;
     font-style: normal;
@@ -333,8 +337,7 @@ a#last:hover {
 
 .text .border {
     position: relative;
-    top: 12rem;
-    height: 215rem;
+    height: 200rem;
     border-left: 3rem solid #0099ff;
     padding-right: 25rem;
 }
@@ -746,4 +749,10 @@ hr {
 
 .hr {
     padding-top: 50rem;
+}
+
+@media screen and (max-width:1500px) {
+    .bg8{
+        right: -270rem;
+    }
 }
