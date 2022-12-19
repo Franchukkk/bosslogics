@@ -54,7 +54,7 @@ footer .logo {
     margin-bottom: 33rem;
 }
 
-.logo img{
+.logo img {
     width: 166rem;
 }
 
@@ -108,12 +108,8 @@ h2 {
     color: #1a1a1a;
 }
 
-header b {
-    font-size: 35rem;
-    letter-spacing: 4rem;
-    line-height: 91rem;
-    color: #ffffff;
-    filter: drop-shadow(0 0rem 2rem #0099ff);
+h1{
+    margin-bottom: 12rem;
 }
 
 .wrapper {
@@ -125,15 +121,6 @@ header b {
     display: flex;
     justify-content: space-between;
 }
-
-/* .header-background {
-    position: absolute;
-    background: url(../img/background.webp) no-repeat;
-    right: 0;
-    width: 1280rem;
-    height: 830rem;
-    z-index: -1;
-} */
 
 .bg1 {
     position: absolute;
@@ -361,6 +348,11 @@ a#last:hover {
 .paragraph {
     width: 650rem;
     margin-bottom: 46rem;
+}
+
+header .paragraph p {
+    font-size: 21rem;
+    font-family: 'Geometria Medium';
 }
 
 .paragraph p {
@@ -751,8 +743,19 @@ hr {
     padding-top: 50rem;
 }
 
+header b {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #09f;
+    mix-blend-mode: overlay;
+    -webkit-text-stroke: 1.9rem #09f;
+    -webkit-text-fill-color: transparent;
+    line-height: inherit;
+}
+
 @media screen and (max-width:1500px) {
-    .bg8{
+    .bg8 {
         right: -270rem;
     }
 }
